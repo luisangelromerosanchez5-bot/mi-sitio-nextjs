@@ -1,5 +1,5 @@
 import BlogCard from "./BlogCard";
-import { blogPosts } from "lib/lib/data";
+import { blogPosts } from "../lib/data";
 
 export default function BlogSection() {
   return (

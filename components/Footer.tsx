@@ -1,7 +1,7 @@
 // components/Footer.tsx
 // Server Component: Footer estático con año dinámico
 
-import { siteConfig } from "lib/lib/data";
+import { siteConfig } from "../lib/data";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
