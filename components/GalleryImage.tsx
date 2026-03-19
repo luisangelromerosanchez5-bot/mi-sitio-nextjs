@@ -10,12 +10,11 @@ export default function GalleryImage({ image }: { image: GalleryImageType }) {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <figure className="relative overflow-hidden rounded-lg border-2
-          border-gray-200 cursor-pointer transition-all
-          duration-300 hover:shadow-xl hover:scale-105"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
+    <figure className="relative overflow-hidden rounded-lg border-2 border-gray-200 cursor-pointer transition-all duration-300 hover:shadow-xl hover:scale-105"
+  onMouseEnter={() => setIsHovered(true)}
+  onMouseLeave={() => setIsHovered(false)}
+>
+    
       <Image src={image.src} alt={image.alt}
         width={image.width} height={image.height}
         sizes="(max-width:480px) 100vw, (max-width:768px) 50vw, 33vw"
