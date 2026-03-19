@@ -7,7 +7,7 @@ export default function BlogSection() {
       <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">
         Blog
       </h2>
-      <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-6 items-center">
         {blogPosts.map((post) => (
           <BlogCard key={post.id} post={post} />
         ))}
