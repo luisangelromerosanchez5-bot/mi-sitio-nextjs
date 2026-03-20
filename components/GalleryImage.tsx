@@ -26,3 +26,4 @@ export default function GalleryImage({ image }: { image: GalleryImageType }) {
     </figure>
   );
 }
+
