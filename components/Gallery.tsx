@@ -3,7 +3,7 @@
 // Patrón Server → Client: pasa props a GalleryImage.
 
 import GalleryImage from "./GalleryImage";
-import { galleryImages } from "lib/lib/data";
+import { galleryImages } from "../lib/data";
 
 export default function Gallery() {
   return (

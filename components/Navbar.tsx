@@ -4,7 +4,7 @@
 
 import Link from "next/link";
 import SearchBar from "./SearchBar";
-import { siteConfig } from "@/lib/lib/data";
+import { siteConfig } from "../lib/data";
 
 export default function Navbar() {
   return (
